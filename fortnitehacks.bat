@@ -43,8 +43,8 @@ if "%choice%"=="8" exit
 
 :PLAY_FORTNITE
 echo Starting Fortnite...
-:: Add the command to start Fortnite here (e.g., launching Epic Games or a Fortnite shortcut)
-start "" "C:\Users\ccarv\OneDrive\Desktop\Fortnite\fortnite.py"
+:: Replace the below path if the current one doesn't work
+start "" "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\fortnitelauncher.exe\"
 pause
 goto MENU
 
